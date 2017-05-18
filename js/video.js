@@ -1,6 +1,7 @@
 $(document).ready(function() { 
 	var clientH=window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-  $('.videoWrap','.videoBox').css({'width':'100%','height':clientH});
+  $('.videoWrap').css({'width':'100%','height':clientH});
+  $('.videoBox').css({'width':'100%','height':clientH});
 	$('.h5video').css({'width':'100%','height':clientH});
 	$('.landWrap').css({'width':'100%','height':clientH});
 	$('.follow').css({'width':'100%','height':clientH});

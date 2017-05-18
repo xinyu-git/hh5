@@ -59,7 +59,7 @@ $(function(){
            	$('.wrap-slide').hide();
 			$('#videoWrap').show();
             //$('#h5video')[0].play();   
-           videoPlay('h5video')      
+           videoPlay('h5video');     
         }, false);
 		document.body.addEventListener('touchmove', function(e) {
             e.preventDefault();
